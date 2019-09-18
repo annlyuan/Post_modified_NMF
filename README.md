@@ -1,10 +1,14 @@
 # Post_modified_NMF
+
 Copyright belongs to Yuan Liu, Sichuan University,CIC
-Cite: Liu, Y.; Liang, Y.; Kuang, Q.; Xie, F. Journal of Chemometrics. 2018a, 32(11): e2929.
+
+[**Cite: Liu, Y.; Liang, Y.; Kuang, Q.; Xie, F. Journal of Chemometrics. 2018a, 32(11): e2929.**](https://onlinelibrary.wiley.com/doi/abs/10.1002/cem.2929)
 
 ---
 
+
 ## Brief
+
 Post-modified NMF is a algorithm which is able to estimate different type of components from heterogeneous samples.
 Also, this unsupervised algorithm we proposed here, is capable of estimating the gene expression profiles and contents of the major cell types of gene expressed samples without any prior reference knowledge.
 
@@ -16,7 +20,10 @@ There are two functions of Matlab has been released here. the main function [*'p
 
 ---
 
+
 ## Input
+
+
 |Input|Explanation|
 |---------|------------------|
 |'expression_profile'|The input of candidate gene-expressed profile for factorization，each line is the expression level for a gene, and each column is a bulk sample. This input should remove headers, and make sure the data type is 'double'. |
@@ -24,7 +31,9 @@ There are two functions of Matlab has been released here. the main function [*'p
 |'rep'|The time of running the whole processing，and take the average as output. The defualt 'rep' is 1.|
 |'replicates'|The number of times to repeat the factorization (defualt 100), using new random starting values for W and H, except at the first replication if w0 and h0 are given (default 1). This tends to be most beneficial with the 'mult' algorithm.（details please reach function 'nnmf'）|
 
+
 ---
+
 
 ## Output
 
@@ -33,19 +42,24 @@ There are two functions of Matlab has been released here. the main function [*'p
 [WM,HM]=Post_modified_NMF(expression_profile,k,rep,replicates)
 
 ```
+
 Factors the N-by-M (N genes and M samples)matrix A into non-negative factors
 WM (N-by-K) and HM (K-by-M). both WM and HM have been post-modified.
+
 
 |Output|Description|
 |------|:-----------:|
 |WM (N-by-K)|The exprassion-profiles of N genes of K factors.
 |HM (K-by-M)|The weights of K factor of M samples. 
 
-###### for more parameters of NMF please check the function 'nnmf'.
+###### · for more parameters of NMF please check the function 'nnmf'.
+
 
 ---
 
+
 ## Usage 
+
 
 1. a. Prepare expression profile which is going to be factorized as "double" data type.
    b. Comfirm the number of main factors (k-value) by using factor analysis or other method.
