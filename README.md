@@ -10,6 +10,7 @@ Cite: [**Liu, Y.; Liang, Y.; Kuang, Q.; Xie, F. Journal of Chemometrics. 2018a, 
 ## Brief
 
 Post-modified NMF is a algorithm which is able to estimate different type of components from heterogeneous samples.
+
 Also, this unsupervised algorithm we proposed here, is capable of estimating the gene expression profiles and contents of the major cell types of gene expressed samples without any prior reference knowledge.
 
 
@@ -40,7 +41,9 @@ There are two functions of Matlab has been released here. The main function [*'P
 
 ```matlab
 
+
 [WM,HM]=Post_modified_NMF(expression_profile,k,rep,replicates)
+
 
 ```
 
@@ -70,10 +73,14 @@ WM (N-by-K) and HM (K-by-M). both WM and HM have been post-modified.
    
 3. Run 
    ```matlab
+   
+   
    [WM,HM]=Post_modified_NMF(expression_profile,k,rep,replicates)
    
    %example:
    [WM,HM]=Post_modified_NMF(A,2,100,100)
+   
+   
    ```
 4. Done! *WM* and *HM* will generateand store separately at the same workspace.
 
