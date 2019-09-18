@@ -2,7 +2,7 @@
 
 Copyright belongs to Yuan Liu, Sichuan University,CIC
 
-[**Cite: Liu, Y.; Liang, Y.; Kuang, Q.; Xie, F. Journal of Chemometrics. 2018a, 32(11): e2929.**](https://onlinelibrary.wiley.com/doi/abs/10.1002/cem.2929)
+Cite: [**Liu, Y.; Liang, Y.; Kuang, Q.; Xie, F. Journal of Chemometrics. 2018a, 32(11): e2929.**](https://onlinelibrary.wiley.com/doi/abs/10.1002/cem.2929)
 
 ---
 
@@ -15,8 +15,8 @@ Also, this unsupervised algorithm we proposed here, is capable of estimating the
 
 There are two functions of Matlab has been released here. the main function [*'post-modified NMF'*](https://github.com/annlyuan/Post_modified_NMF/blob/master/Post_modified_NMF.m) and [*'nnmf'*](https://github.com/annlyuan/Post_modified_NMF/blob/master/nnmf.m). 
 
-* *'post-modified NMF'* for the post-modification
-* *'nnmf'* for Non-negative matrix factorization
+* *'post-modified NMF.m'* for the post-modification
+* *'nnmf.m'* for Non-negative matrix factorization
 
 ---
 
