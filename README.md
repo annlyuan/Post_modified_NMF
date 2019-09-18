@@ -47,14 +47,14 @@ There are two functions of Matlab has been released here. The main function [*'P
 
 ```
 
-Factors the N-by-M (N genes and M samples)matrix A into non-negative factors
-WM (N-by-K) and HM (K-by-M). both WM and HM have been post-modified.
+Factors the M-by-N (M genes and N samples)matrix A into non-negative factors
+WM (M-by-K) and HM (K-by-N). both WM and HM have been post-modified.
 
 
 |Output|Description|
 |------|:-----------:|
-|WM (N-by-K)|The exprassion-profiles of N genes of K factors.
-|HM (K-by-M)|The weights of K factor of M samples. 
+|WM (M-by-K)|The exprassion-profiles of M genes of K factors.
+|HM (K-by-N)|The weights of K factor of N samples. 
 
 ###### · for more parameters of NMF please check the function 'nnmf'.
 
