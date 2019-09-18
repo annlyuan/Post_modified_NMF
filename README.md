@@ -1,6 +1,6 @@
 # Post_modified_NMF
 
-Copyright belongs to Yuan Liu, Sichuan University,CIC
+Copyright belongs to Yuan Liu, Sichuan University, CIC
 
 Cite: [**Liu, Y.; Liang, Y.; Kuang, Q.; Xie, F. Journal of Chemometrics. 2018a, 32(11): e2929.**](https://onlinelibrary.wiley.com/doi/abs/10.1002/cem.2929)
 
@@ -13,9 +13,9 @@ Post-modified NMF is a algorithm which is able to estimate different type of com
 Also, this unsupervised algorithm we proposed here, is capable of estimating the gene expression profiles and contents of the major cell types of gene expressed samples without any prior reference knowledge.
 
 
-There are two functions of Matlab has been released here. the main function [*'post-modified NMF'*](https://github.com/annlyuan/Post_modified_NMF/blob/master/Post_modified_NMF.m) and [*'nnmf'*](https://github.com/annlyuan/Post_modified_NMF/blob/master/nnmf.m). 
+There are two functions of Matlab has been released here. The main function [*'Post-modified NMF'*](https://github.com/annlyuan/Post_modified_NMF/blob/master/Post_modified_NMF.m) and [*'nnmf'*](https://github.com/annlyuan/Post_modified_NMF/blob/master/nnmf.m). 
 
-* *'post-modified NMF.m'* for the post-modification
+* *'Post-modified NMF.m'* for the post-modification
 * *'nnmf.m'* for Non-negative matrix factorization
 
 ---
@@ -23,6 +23,7 @@ There are two functions of Matlab has been released here. the main function [*'p
 
 ## Input
 
+### Required software: Matlab (recommend: Matlab 2018a)
 
 |Input|Explanation|
 |---------|------------------|
@@ -64,7 +65,7 @@ WM (N-by-K) and HM (K-by-M). both WM and HM have been post-modified.
 1. a. Prepare expression profile which is going to be factorized as "double" data type.
    b. Comfirm the number of main factors (k-value) by using factor analysis or other method.
    
-2. a. Load *'expression profile'* and *'k'* into the same workspace where you saved **'post-modified NMF'**.
+2. a. Load *'expression profile'* and *'k'* into the same workspace where you saved **'Post-modified NMF'**.
    b. Set parameters 'rep' and 'replicates' (or use default).
    
 3. Run 
