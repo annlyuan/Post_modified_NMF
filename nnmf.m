@@ -1,7 +1,7 @@
 function [wbest,hbest,normbest] = nnmf(a,k,varargin)
 %NNMF Non-negative matrix factorization.
-%   [W,H] = NNMF(A,K) factors the N-by-M matrix A into non-negative factors
-%   W (N-by-K) and H (K-by-M).  The result is not an exact factorization,
+%   [W,H] = NNMF(A,K) factors the M-by-N matrix A into non-negative factors
+%   W (M-by-K) and H (K-by-N).  The result is not an exact factorization,
 %   but W*H is a lower-rank approximation to the original matrix A.  The W
 %   and H matrices are chosen to minimize the objective function that is
 %   defined as the root mean squared residual between A and the
@@ -24,8 +24,8 @@ function [wbest,hbest,normbest] = nnmf(a,k,varargin)
 %      'algorithm'  Either 'als' (default) to use an alternating least
 %                   squares algorithm, or 'mult' to use a multiplicative
 %                   update algorithm.
-%      'w0'         An N-by-K matrix to be used as the initial value for W.
-%      'h0'         A K-by-M matrix to be used as the initial value for H.
+%      'w0'         An M-by-K matrix to be used as the initial value for W.
+%      'h0'         A K-by-N matrix to be used as the initial value for H.
 %      'replicates' The number of times to repeat the factorization, using
 %                   new random starting values for W and H, except at the
 %                   first replication if w0 and h0 are given (default 1).
