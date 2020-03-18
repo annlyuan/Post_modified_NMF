@@ -2,7 +2,8 @@
 
 Copyright belongs to Yuan Liu, Sichuan University, CIC
 
-Cite: [**Liu, Y.; Liang, Y.; Kuang, Q.; Xie, F. Journal of Chemometrics. 2018a, 32(11): e2929.**](https://onlinelibrary.wiley.com/doi/abs/10.1002/cem.2929)
+Cite: [**Y,Liu, Y,Liang, QF,Kuang, FF,Xie, YY,Hao, ZN,Wen*, ML,Li*, Journal of Chemometrics. 2018a.**](https://onlinelibrary.wiley.com/doi/abs/10.1002/cem.2929)
+      [**Y,Liu, RY,Jing, ZN,Wen*, ML,Li*., Frontier in pharmacology.2019. **](https://www.frontiersin.org/articles/10.3389/fphar.2019.01489/full)
 
 ---
 
