@@ -11,7 +11,7 @@ Cite: [**Y,Liu, RY,Jing, ZN,Wen*, ML,Li*., Frontier in pharmacology.2019. ](http
 
 ## Brief
 
-Post-modified NMF is a algorithm which is able to estimate different type of components from heterogeneous samples.
+Post-modified NMF is an algorithm which is able to estimate different type of components from heterogeneous samples.
 
 Also, this unsupervised algorithm we proposed here, is capable of estimating the gene expression profiles and contents of the major cell types of gene expressed samples without any prior reference knowledge.
 
